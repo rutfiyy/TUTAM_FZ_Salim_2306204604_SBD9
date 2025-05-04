@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:3000'; // Replace with your backend URL
+const BASE_URL = 'tutam-fz-salim-2306204604-sbd-9-backend-jbmoj44tx.vercel.app';
 
 // Function to fetch all cards
 export const fetchCards = async () => {
