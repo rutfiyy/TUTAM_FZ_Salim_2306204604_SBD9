@@ -10,7 +10,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/create" element={<CreateCard />} />
-          <Route path="/edit" element={<EditCardPage />} /> {/* Static route */}
+          <Route path="/edit" element={<EditCardPage />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </BrowserRouter>
